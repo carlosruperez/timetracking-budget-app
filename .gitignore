@@ -1,0 +1,52 @@
+# ─── OS & Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Node / pnpm ───────────────────────────────────────────────────────────────
+node_modules/
+.pnpm-store/
+.npm/
+
+# ─── Turbo ─────────────────────────────────────────────────────────────────────
+.turbo/
+
+# ─── TypeScript ────────────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── packages/core ─────────────────────────────────────────────────────────────
+packages/core/dist/
+
+# ─── Next.js (apps/web) ────────────────────────────────────────────────────────
+apps/web/.next/
+apps/web/out/
+apps/web/.env
+apps/web/.env.local
+apps/web/.env.*.local
+
+# ─── Expo / React Native (apps/mobile) ─────────────────────────────────────────
+apps/mobile/.expo/
+apps/mobile/dist/
+apps/mobile/android/
+apps/mobile/ios/
+apps/mobile/.env
+apps/mobile/.env.local
+
+# ─── Go (backend) ──────────────────────────────────────────────────────────────
+backend/bin/
+backend/*.exe
+backend/*.out
+backend/.env
+backend/.env.local
+
+# ─── Docker ────────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Test & coverage ───────────────────────────────────────────────────────────
+coverage/
+*.lcov
